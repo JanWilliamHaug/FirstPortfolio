@@ -81,9 +81,9 @@ const Home = () => (
         <Paragraph>
           I am originally from Norway, and currently a senior 
           Software Engineering student at California State University San Marcos. 
-          Collaborative team member who enjoys problem solving, finding solutions 
+          I am a collaborative team member who enjoys problem solving, finding solutions 
           and working in a team environment. My current programming language skills 
-          are in Java, C++, F# and Python.My LinkedIn is {' '}
+          are in Java, C++, F# and Python. My LinkedIn is {' '}
           <NextLink href="/works/inkdrop" passHref scroll={false}>
             <Link>Inkdrop</Link>
           </NextLink>
