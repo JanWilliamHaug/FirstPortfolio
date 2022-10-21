@@ -76,7 +76,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About
         </Heading>
         <Paragraph>
           I am originally from Norway, and currently a senior 
@@ -113,7 +113,7 @@ const Home = () => (
           <BioYear>2023</BioYear>
           BS Software Engineering
           California State University San Marcos
-          Graduation date 2023 (expected)
+          Graduation (expected)
         </BioSection>
         
       </Section>

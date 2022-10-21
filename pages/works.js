@@ -15,7 +15,7 @@ import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
-  <Layout title="Works">
+  <Layout title="Recent projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Works
@@ -23,14 +23,14 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="Future project" title="Future project" thumbnail={thumbInkdrop}>
             info about my future project here
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
+            id="Future project 2"
+            title="Future project 2"
             thumbnail={thumbWalknote}
           >
             My future app name
@@ -39,15 +39,15 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
+            id="Future project 3"
+            title="Future project 3"
             thumbnail={thumbFourPainters}
           >
             A video generated with .....
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
+          <WorkGridItem id="Future project 4" thumbnail={thumbMenkiki} title="Future project 4">
             An app that does.....
           </WorkGridItem>
         </Section>
@@ -57,28 +57,28 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Future Collaborations
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
+          <WorkGridItem id="Future collaboration 1" thumbnail={thumbMargelo} title="Future collaboration 1">
             A website of my future project 
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
+            id="Future collaboration 2"
             thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            title="Future collaboration 2"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            info here
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+          <WorkGridItem id="Future collaboration 3" thumbnail={thumbStyly} title="Future collaboration 3">
+            future info here
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -93,23 +93,22 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
+          <WorkGridItem id="1" thumbnail={thumbPichu2} title="1">
             My app
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
-            id="freedbtagger"
+            id="2"
             thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
+            title="2"
           >
-            Automatic audio file tagging tool using FreeDB for Windows
+           Info
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
+          <WorkGridItem id="3" thumbnail={thumbAmembo} title="3">
+            info...
           </WorkGridItem>
         </Section>
       </SimpleGrid>
