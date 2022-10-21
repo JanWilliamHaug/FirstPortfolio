@@ -85,7 +85,6 @@ const Home = () => (
           and working in a team environment. My current programming language skills 
           are in Java, C++, F# and Python.My LinkedIn is {' '}
           <NextLink href="/works/inkdrop" passHref scroll={false}>
-            <Link>Inkdrop</Link>
           </NextLink>
           &quot;
           <NextLink href="https://www.linkedin.com/in/janwilliamhaug/" passHref>
@@ -144,7 +143,7 @@ const Home = () => (
                 leftIcon={<IoLogoGithub />}
               >
               
-                @craftzdog
+                @JanWilliamHaug
               </Button>
             </Link>
           </ListItem>
