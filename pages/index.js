@@ -153,14 +153,14 @@ const Home = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            title="Future project 1"
             thumbnail={thumbYouTube}
           >
             More to come
           </GridItem>
           <GridItem
             href="https://www.inkdrop.app/"
-            title="Inkdrop"
+            title="Future Project 2"
             thumbnail={thumbInkdrop}
           >
             My future app
