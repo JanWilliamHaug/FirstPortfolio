@@ -125,11 +125,12 @@ const Home = () => (
         <Paragraph>
           Listening to music,{' '}
             video games,
-          collaborating on projects{' '}
+          collaborating on projects,{' '}
             watching anime, hiking
             and Working out
         </Paragraph>
       </Section>
+
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -177,6 +178,8 @@ const Home = () => (
       </Section>
     </Container>
   </Layout>
+
+  
 )
 
 export default Home

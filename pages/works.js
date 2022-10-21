@@ -14,6 +14,8 @@ import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
+import Paragraph from '../components/paragraph'
+
 const Works = () => (
   <Layout title="Recent projects">
     <Container>
@@ -52,6 +54,17 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+
+      <br></br>
+      <Section delay={0.3}>
+      <Heading as="h3" fontSize={20} mb={4}>
+        I want to give special thanks to <br></br> Takuya Matsuyama
+      </Heading>
+      <Paragraph>
+        This website is built based on <a href='https://www.craftz.dog/' 
+        target='_blank'>Takuya Matsuyama's website</a>.
+      </Paragraph>
+      </Section>
 
       <Section delay={0.2}>
         <Divider my={6} />

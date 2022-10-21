@@ -16,7 +16,7 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Jan William's homepage" />
-        <meta name="author" content="Takuya Matsuyama" />
+        <meta name="author" content="Jan William Haug" />
         <meta name="author" content="craftzdog" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -29,7 +29,7 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Jan William Haug" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Takuya Matsuyama - Homepage</title>
+        <title>Jan William  Haug - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />
