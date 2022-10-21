@@ -124,10 +124,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Listening to music,{' '}
-            video games
+            video games,
           collaborating on projects{' '}
-            watching anime, hiking,
-           Working out
+            watching anime, hiking
+            and Working out
         </Paragraph>
       </Section>
 
